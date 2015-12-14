@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Validar CPF</title>
+	<link rel="shortcut icon" href="cpf-icone.png">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<h2>Validador de CPF <small>com verificação de Estado.</small></h2>
+				<br /><br /><br />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="input-group">
+					<span class="input-group-addon" id="sizing-addon2">CPF</span>
+					<input type="text" class="form-control" placeholder="Digite seu CPF" aria-describedby="sizing-addon2" id="cpf">
+				</div>
+				<div class="input-group" id="divEstado" style="display:none;">
+					<span class="input-group-addon" id="sizing-addon2">Estado de emissao</span>
+					<span id="estado" />
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+
+</body>
+</html>
